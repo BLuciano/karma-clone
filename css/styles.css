@@ -15,19 +15,19 @@ a{
 	text-align: center;
 }
 
+.container{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 0 5em;
+}
+
 /******HEADER******/
 
 
 /******NAVIGATION******/
 .navigation{
 	background-color: #fff;
-}
-
-.container{
-	width: 950px;
 	height: 75px;
-	margin: 0 auto;
-	padding: 0 2em;
 }
 
 .logo{
@@ -48,7 +48,7 @@ a{
 .nav-links a{
 	font-size: 17px;
 	letter-spacing: 0.03em;
-	color: #aaa;
+	color: #666;
 	font-weight: 400;
 	-webkit-transition: color .5s;
     transition: color .5s;
