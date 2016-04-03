@@ -1,6 +1,8 @@
 /******GLOBALS******/
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -19,34 +21,40 @@ a{
 /******NAVIGATION******/
 .navigation{
 	background-color: #fff;
-	border: 1px solid red;
 }
 
 .container{
 	width: 950px;
 	height: 75px;
 	margin: 0 auto;
+	padding: 0 2em;
 }
 
 .logo{
 	width: 28px;
 	height: auto;
-	margin: 15px 0 0 25px;
+	margin-top: 15px;
 }
 
 .nav-links{
-	display: inline-block;
+	float: right;
+	margin-top: 27px;
+	padding: 0;
 }
 .nav-links > li{
 	display: inline;
+	margin-left: 25px;
 }
 .nav-links a{
-	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 0.03em;
 	color: #aaa;
+	font-weight: 400;
 }
 
 .title a{
 	color: #444;
+	font-weight: 500;
 }
 .nav-links a:hover{
 	color: #000;
