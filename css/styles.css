@@ -50,6 +50,8 @@ a{
 	letter-spacing: 0.03em;
 	color: #aaa;
 	font-weight: 400;
+	-webkit-transition: color .5s;
+    transition: color .5s;
 }
 
 .title a{
