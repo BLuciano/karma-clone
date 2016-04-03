@@ -43,6 +43,7 @@ button:hover{
 	background-color: #fff;
 	height: 75px;
 	position: fixed;
+	border-bottom: .5px solid #ddd;
 }
 
 .logo{
@@ -77,13 +78,13 @@ button:hover{
 	color: #000;
 }
 
-/******HEADER******/
+/******LANDING******/
 .landing{
 	width: 100%;
 	height: 45.938rem;
 	background: url(../imgs/landing.jpg) no-repeat center bottom;
   	background-size: cover;
-  	overflow: auto;
+  	overflow: hidden;
 }
 
 .landing h1, .landing h3{
@@ -101,3 +102,27 @@ button:hover{
 	margin-top: .5em;
 }
 
+/*****ICONS SECTION*******/
+.icons-section{
+	overflow: auto;
+	padding-bottom: 10em;
+}
+
+.icons-section h2{
+	font-size: 2.75em;
+	color: #444;
+	font-weight: 200;
+	margin-top: 2.75em;
+	margin-bottom: 1em;
+}
+
+.icons-section p{
+	margin-top: 1.5em;
+	font-size: 1.5em;
+}
+
+.column{
+	width: 33%;
+	padding: 0 2%;
+	float: left;
+}
