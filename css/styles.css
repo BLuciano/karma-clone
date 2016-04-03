@@ -21,10 +21,28 @@ a{
 	padding: 0 5em;
 }
 
+button{
+	margin: 1.25em;
+	padding: 16px 32px;
+	color: #fff;
+	font-size: 1.15em;
+	background-color: #f15a29;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+button:hover{
+	background-color: #d9400e;
+}
+
 /******NAVIGATION******/
 .navigation{
+	width: 100%;
 	background-color: #fff;
 	height: 75px;
+	position: fixed;
 }
 
 .logo{
@@ -62,37 +80,24 @@ a{
 /******HEADER******/
 .landing{
 	width: 100%;
-	height: 40em;
-	background: url(../imgs/landing.jpg) no-repeat center center;
+	height: 45.938rem;
+	background: url(../imgs/landing.jpg) no-repeat center bottom;
   	background-size: cover;
+  	overflow: auto;
 }
 
 .landing h1, .landing h3{
 	margin: 0;
 	color: #fff;
+	font-weight: 200;
 }
 
 .landing h1{
-	font-size: 3em;
-	padding-top: 4.25em;
+	font-size: 3.125em;
+	margin-top: 5.50em;
 }
 .landing h3{
-	font-size: 1.5em;
+	font-size: 1.55em;
 	margin-top: .5em;
 }
 
-.landing button{
-	margin: 1.25em;
-	padding: 16px 32px;
-	color: #fff;
-	font-size: 1.15em;
-	background-color: #f15a29;
-	border: none;
-	border-radius: 5px;
-	-webkit-transition: background-color .5s;
-    transition: background-color .5s;
-}
-
-.landing button:hover{
-	background-color: #d9400e;
-}
