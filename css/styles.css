@@ -143,12 +143,21 @@ footer > div{
 
 .footer-links >li{
 	display: inline-block;
-	width: 40px;
-	height: 40px;
-	padding: .5em;
 	margin: 0 .5em;
 	border-radius: 50%;
 	border: 1px solid #ddd;
+	-webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+.footer-links >li:hover{
+	background-color: #000;
+}
+
+.footer-links a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: .5em;
 }
 
 .fa-facebook{
