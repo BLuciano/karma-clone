@@ -43,6 +43,7 @@ button:hover{
 	background-color: #fff;
 	height: 75px;
 	position: fixed;
+	z-index: 9999;
 	border-bottom: .5px solid #ddd;
 }
 
@@ -105,7 +106,7 @@ button:hover{
 /*****ICONS SECTION*******/
 .icons-section{
 	overflow: auto;
-	padding-bottom: 10em;
+	padding-bottom: 5em;
 }
 
 .icons-section h2{
@@ -122,7 +123,48 @@ button:hover{
 }
 
 .column{
-	width: 33%;
+	width: 33.33333%;
 	padding: 0 2%;
 	float: left;
+}
+
+/*****FOOTER SECTION*******/
+footer{
+	padding-bottom: 8em;
+}
+
+footer > div{
+	border-top: .5px solid #ddd; 
+}
+
+.footer-links{
+	padding: 0;
+}
+
+.footer-links >li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: .5em;
+	margin: 0 .5em;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+
+.fa-facebook{
+	color: #4C66A4;
+}
+
+.fa-twitter{
+	color: #5AACEE;
+}
+
+.fa-instagram{
+	color:#3F72A7;
+}
+
+.copyR{
+	color: #666;
+	font-size: .90em;
+	font-weight: 200;
 }
