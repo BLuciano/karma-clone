@@ -177,3 +177,10 @@ footer > div{
 	font-size: .90em;
 	font-weight: 200;
 }
+
+/*******MEDIA QUERIES********/
+@media screen and (max-width: 975px){
+	.container{
+		width: 100%;
+	}
+}
