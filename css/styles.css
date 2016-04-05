@@ -58,6 +58,7 @@ button:focus{
 
 #nav-links{
 	float: right;
+	display: inline-block;
 	margin-top: 27px;
 	padding: 0;
 }
@@ -223,6 +224,10 @@ footer > div{
 	#nav-links a:hover{
 		background-color: #f15a29;
 		color: #fff;
+	}
+
+	#nav-links.showNav{
+		display: block;
 	}
 
 	.column{
