@@ -56,16 +56,16 @@ button:focus{
 	margin-top: 15px;
 }
 
-.nav-links{
+#nav-links{
 	float: right;
 	margin-top: 27px;
 	padding: 0;
 }
-.nav-links > li{
+#nav-links > li{
 	display: inline;
 	margin-left: 25px;
 }
-.nav-links a{
+#nav-links a{
 	font-size: 17px;
 	letter-spacing: 0.03em;
 	color: #666;
@@ -78,11 +78,11 @@ button:focus{
 	color: #444;
 	font-weight: 500;
 }
-.nav-links a:hover{
+#nav-links a:hover{
 	color: #000;
 }
 
-.drop-down{
+#drop-down{
 	float:right;
 	margin: 10px 0 0;
 	display: none;
@@ -196,10 +196,10 @@ footer > div{
 }
 
 @media screen and (max-width: 750px){
-	.drop-down{
+	#drop-down{
 		display: inline-block;
 	}
-	.nav-links{
+	#nav-links{
 		display: none;
 		position: absolute;
 		left:0;
@@ -207,20 +207,20 @@ footer > div{
 		padding: 0;
 		width: 100%;
 	}
-	.nav-links > li{
+	#nav-links > li{
 		text-align: center;
 		display: block;
 		margin: 0;
 		width: 100%;
 		border-bottom: .5px solid #ddd;
 	}
-	.nav-links a{
+	#nav-links a{
 		display: block;
 		width: 100%;
 		padding: 10px 0;
 		background-color: #fff;
 	}
-	.nav-links a:hover{
+	#nav-links a:hover{
 		background-color: #f15a29;
 		color: #fff;
 	}
