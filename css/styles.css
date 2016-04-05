@@ -224,4 +224,10 @@ footer > div{
 		background-color: #f15a29;
 		color: #fff;
 	}
+
+	.column{
+		width: 100%;
+		padding: 0 2%;
+		margin-bottom: 4em;
+	}
 }
