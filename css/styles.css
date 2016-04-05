@@ -36,6 +36,9 @@ button{
 button:hover{
 	background-color: #d9400e;
 }
+button:focus{
+	outline: none;
+}
 
 /******NAVIGATION******/
 .navigation{
@@ -67,8 +70,8 @@ button:hover{
 	letter-spacing: 0.03em;
 	color: #666;
 	font-weight: 400;
-	-webkit-transition: color .5s;
-    transition: color .5s;
+	-webkit-transition: all .5s;
+    transition: all .5s;
 }
 
 .title a{
@@ -77,6 +80,12 @@ button:hover{
 }
 .nav-links a:hover{
 	color: #000;
+}
+
+.drop-down{
+	float:right;
+	margin: 10px 0 0;
+	display: none;
 }
 
 /******LANDING******/
@@ -182,5 +191,37 @@ footer > div{
 @media screen and (max-width: 975px){
 	.container{
 		width: 100%;
+		padding: 0 2em;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.drop-down{
+		display: inline-block;
+	}
+	.nav-links{
+		display: none;
+		position: absolute;
+		left:0;
+		margin: 14px 0 0 0;
+		padding: 0;
+		width: 100%;
+	}
+	.nav-links > li{
+		text-align: center;
+		display: block;
+		margin: 0;
+		width: 100%;
+		border-bottom: .5px solid #ddd;
+	}
+	.nav-links a{
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		background-color: #fff;
+	}
+	.nav-links a:hover{
+		background-color: #f15a29;
+		color: #fff;
 	}
 }
